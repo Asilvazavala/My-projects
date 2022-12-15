@@ -1,0 +1,36 @@
+.contenedor-avatar{
+  margin: 30px;  
+}
+
+picture{
+    display: block;
+    text-align: center;
+    width: 100px;
+    margin: auto;
+    cursor: pointer;
+    position: absolute;
+    left: 53%;
+    top: 2%;
+  }
+  
+  picture.is-small{
+    width: 100px;
+    font-size: 22px;
+  }
+  
+  picture.is-large{
+    width: 200px;;
+  }
+  
+  img{
+    box-shadow: 0 0 15px #999;
+    border-radius: 50%;
+    width: 100px;
+  }
+  
+  img.disabled{
+    opacity: 0.3;
+  }
+
+
+  

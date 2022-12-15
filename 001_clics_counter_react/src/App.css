@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  padding-top: 20px;
+}
+
+h4{
+  text-align: right;
+  margin-right: 10px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+html,
+body{
+  background: linear-gradient(220.55deg, #24CFC5 0%, #001C63 100%);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

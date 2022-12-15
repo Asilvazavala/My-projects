@@ -1,0 +1,71 @@
+.contenedor-datos-avatar {
+  font-size: calc(10px + 2vmin);
+  color: black;
+  margin-top: 85px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.genero-avatar{
+  margin-left: 90px;
+}
+
+.hobbies-avatar{
+  position: absolute;
+  left: 26.5%;
+  top: 40%;
+}
+
+ul{
+  list-style-type: none;
+}
+  
+.boton {
+  cursor: pointer;
+  margin-left: 15px;
+  height: 50px;
+  width: 95px;
+  border-radius: 8px;
+  border: 2px solid black;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+  
+.input{
+  height: 45px;
+  margin-left: 15px;
+  border-radius: 8px;
+  border: 2px solid black;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+  
+.boton-cambiar{
+  background-color: rgb(146, 227, 146);
+}
+  
+.boton-nombre{
+  background-color: rgb(247, 100, 100);
+} 
+  
+.boton-cambiar:hover{
+  background-color: rgb(69, 143, 69);
+}
+  
+.boton-nombre:hover{
+  background-color: rgb(199, 40, 40);  
+}
+
+h5{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding-right: 5px;
+  font-size: 22px;
+}
+  
+
+  
+
+  

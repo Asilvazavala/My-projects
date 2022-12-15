@@ -1,0 +1,11 @@
+
+html,
+body{
+  background: linear-gradient(220.55deg, #8FFF85 0%, #39A0FF 100%);
+  text-align: center; 
+}
+
+.App{
+  height: 100vh;
+}
+

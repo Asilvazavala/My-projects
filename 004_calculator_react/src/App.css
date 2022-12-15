@@ -1,0 +1,23 @@
+.App {
+  height: 100vh;
+  background: linear-gradient(220.55deg, #4063BC 0%, #6B0013 100%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-calculadora {
+  width: 450px;
+  height: 620px;
+  background-color: #1b2f46;
+  border-radius: 20px;
+  border: 5px solid white;
+}
+
+.fila {
+  margin: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
